@@ -1,0 +1,45 @@
+@media (max-width: 1600px) {
+  .grid {
+    gap: 0 50px;
+  }
+
+  .guarantees {
+    padding-top: 40px;
+    gap: 40px 20px;
+    justify-content: space-between;
+  }
+
+  .guarantees-item {
+    max-width: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: 800px;
+  }
+  .grid {
+    display: flex;
+    gap: 50px;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:900px) {
+     .container{
+        max-width: 640px;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .slider {
+    width: 400px;
+    height: 400px;
+  }
+}
